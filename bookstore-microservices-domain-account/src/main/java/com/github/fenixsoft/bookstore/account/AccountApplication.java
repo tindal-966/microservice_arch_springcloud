@@ -25,7 +25,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 
 @EnableCaching
-@EnableDiscoveryClient
+@EnableDiscoveryClient // 注册本服务
 @SpringBootApplication(scanBasePackages = {"com.github.fenixsoft.bookstore"})
 public class AccountApplication {
     public static void main(String[] args) {

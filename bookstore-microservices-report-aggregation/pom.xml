@@ -42,6 +42,7 @@
     <build>
         <plugins>
             <plugin>
+                <!-- jacoco 接口测试覆盖率 plugin -->
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.8.5</version>

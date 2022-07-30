@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @author icyfenix@gmail.com
  * @date 2020/4/17 17:29
  **/
-@EnableEurekaServer
+@EnableEurekaServer // Eureka 注册中心 server
 @SpringBootApplication
 public class RegistryApplication {
 

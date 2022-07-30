@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @author icyfenix@gmail.com
  * @date 2020/4/18 11:17
  **/
-@EnableDiscoveryClient
+@EnableDiscoveryClient // 注册本服务
 @SpringBootApplication(scanBasePackages = {"com.github.fenixsoft.bookstore"})
 public class SecurityApplication {
     public static void main(String[] args) {
